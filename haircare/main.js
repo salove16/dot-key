@@ -2,8 +2,13 @@ function createProductCard(data,parent){
     data.map((elem)=>{
         let mainDiv = document.createElement("div");
         mainDiv.id="mainDiv";
+    
         let imgDiv = document.createElement("img");
         imgDiv.src=elem.prodImgUrl[0];
+        imgDiv.addEventListener("click",function(){
+            
+        })
+
         let saveDiv = document.createElement("div");
         saveDiv.textContent = "SAVE 10%";
         saveDiv.id="saveDiv";
