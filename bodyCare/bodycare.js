@@ -1,7 +1,9 @@
 import { createProductCard } from "./Scripts/main.js";
-console.log(createProductCard);
+import {navBar} from './Componentes/navBar.js';
+import {footer} from './Componentes/footer.js';
 
-
+document.querySelector("#navbar").innerHTML = navBar();
+document.querySelector("#footer").innerHTML = footer();
 let bodyScrubData = [
   {
     DispName: "Vitamin C & Avalon Lemon",
@@ -335,3 +337,13 @@ document.querySelector("#mainProduct>div:nth-child(2)").addEventListener("click"
 document.querySelector("#mainProduct>div:nth-child(3)").addEventListener("click",()=>{
   location.href = "#scrub";
 })
+
+const showNaveBar = () =>{
+  if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 50) {
+    console.log("scrWork")
+    document.getElementById("mainDiv").className = "hide";
+  } else {
+    document.getElementById("mainDiv").className = "";
+  }
+}
+window.onscroll= showNaveBar();  
