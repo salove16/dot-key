@@ -12,10 +12,12 @@
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="haircare.css">
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+ 
 </head>
-<style>
 
-</style>
 
 <body>
   <div id="container">
@@ -75,7 +77,19 @@
 
 
       </div>
-      <div id="background2"></div>
+      <div id="background2">
+        <h5>THE SCIENCE BEHIND</h5>
+        <h2>Our Formulations</h2>
+        <h6>Our Formulations are 90% nature derived, with our focus being the use of scientifically-proven ingredients that ensure promised results.</h6>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <!-- <div class="swiper-pagination"></div> -->
+        </div>
+      </div>
 
       <div class="page-text-title">
         <div class="hair-page-title">Shop Hair Care</div>
@@ -101,12 +115,18 @@
       <!-- for bottom lane of page -->
     </div>
   </div>
+  
+
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
 </body>
 
 </html>
 <script src="./haircare.js"></script>
+
 <script type="module" >
-  import {createProductCard} from "./main.js"
+  import {createProductCard} from "./main1.js"
 
   
   
