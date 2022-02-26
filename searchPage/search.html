@@ -8,6 +8,7 @@
     <title>Document</title>
 </head>
 <link rel="stylesheet" href="./search.css">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
 <body>
     <div id="container">
@@ -20,7 +21,55 @@
         </nav>
         <div id="main">
             <!-- for body part -->
-            <div class="top-slide"></div>
+            <div class="top-slide">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide" ><p>all products</p></div>
+                      <div class="swiper-slide" ><p>shop all</p></div>
+                      <div class="swiper-slide" ><p>mask flash sale</p></div>
+                      <div class="swiper-slide" ><p>oily skin</p></div>
+                      <div class="swiper-slide" ><p>website general exclusions</p></div>
+                      <div class="swiper-slide" ><p>single products</p></div>
+                      <div class="swiper-slide" ><p>normal skin</p></div>
+                      <div class="swiper-slide" ><p>dry skin</p></div>
+                      <div class="swiper-slide" ><p>face care</p></div>
+                      <div class="swiper-slide" ><p>skin glow</p></div>
+                      <div class="swiper-slide" ><p>combo & regimes</p></div>
+                      <div class="swiper-slide" ><p>new arrivals</p></div>
+                      <div class="swiper-slide" ><p>buying guide</p></div>
+                      <div class="swiper-slide" ><p>serums & oils</p></div>
+                      <div class="swiper-slide" ><p>best sellers</p></div>
+                      <div class="swiper-slide" ><p>combination skin</p></div>
+                      <div class="swiper-slide" ><p>winter top picks</p></div>
+                      <div class="swiper-slide" ><p>acne control</p></div>
+                      <div class="swiper-slide" ><p>acne prone skin</p></div>
+                      <div class="swiper-slide" ><p>masks</p></div>
+                      <div class="swiper-slide" ><p>pigmented skin remedies</p></div>
+                      <div class="swiper-slide" ><p>dryness & repair</p></div>
+                      <div class="swiper-slide" ><p>love store</p></div>
+                      <div class="swiper-slide" ><p>post acne</p></div>
+                      <div class="swiper-slide" ><p>vday</p></div>
+                      <div class="swiper-slide" ><p>age defense</p></div>
+                      <div class="swiper-slide" ><p>congested skin</p></div>
+                      <div class="swiper-slide" ><p>dryness</p></div>
+                      <div class="swiper-slide" ><p>jovita's top picks</p></div>
+                      <div class="swiper-slide" ><p>sensitive skin</p></div>
+                      <div class="swiper-slide" ><p>active acne</p></div>
+                      <div class="swiper-slide" ><p>dry acne</p></div>
+                      <div class="swiper-slide" ><p>exfoliators</p></div>
+                      <div class="swiper-slide" ><p>new drop</p></div>
+                      <div class="swiper-slide" ><p>shreya's top picks</p></div>
+                      <div class="swiper-slide" ><p>debashree's top picks</p></div>
+                      <div class="swiper-slide" ><p>hydration skincare</p></div>
+                      
+                      
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+
+
+            </div>
             <div class="display-flexdiv">
                 <div class="leftFilterDiv"></div>
                 <div class="right-grid-div">
@@ -49,7 +98,25 @@
             <!-- for bottom lane of page -->
         </div>
     </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </body>
 
 </html>
-<script src="./search.js"></script>
+<script src="./search.js">
+
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 5,
+    spaceBetween: 30,
+    slidesPerGroup: 5,
+    loop: true,
+    loopFillGroupWithBlank: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
