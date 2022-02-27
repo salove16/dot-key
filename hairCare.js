@@ -1,3 +1,4 @@
+
 let background1_data = [{
     icon: "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/12x.png?v=1643031632",
     image: "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/girl_1.png?v=1643013901",
@@ -125,102 +126,12 @@ let background1_data = [{
 
 
 
-//   let product_display_grid = document.getElementById("hair-items-product")
-//   items.forEach(el => {
-//     let div = document.createElement("div")
-//     div.setAttribute("class","inner-grid-div")
-//     let div_box = document.createElement("div")
-// div_box.setAttribute("class","div-box")
-
-//     let imageDiv = document.createElement("div")
-//     imageDiv.setAttribute("class", "imagediv")
-    
-//     let img=document.createElement("img")
-//     img.src=el.image
-    
-//     let discountDiv=document.createElement("div")
-
-//     discountDiv.setAttribute("class", "discountdiv")
-//     let offer=document.createElement("p")
-//     offer.textContent="save 10%"
-//     discountDiv.append(offer)
-//     imageDiv.append(discountDiv,img)
-//     let rateDiv = document.createElement("div")
-//      let rate=document.createElement("P")
-//      rate.textContent=el.rating
-
-//     let nameDiv = document.createElement("div")
-//     let name=document.createElement("h4")
-//     name.textContent=el.name
-//     nameDiv.append(name)
-//     let priceDiv = document.createElement("div")
-//     priceDiv.setAttribute("calss","price-div")
-//     let price=document.createElement("del")
-//     price.textContent=el.price
-//     let discountPrice=document.createElement("h5")
-//     discountPrice.textContent=el.discounted_price
-//     priceDiv.append(price,discountPrice)
-//     let adddiv = document.createElement("div")
-//     let addCartButton=document.createElement("button")
-
-
-//     addCartButton.textContent="Add To Cart"
-//     adddiv.append(addCartButton)
-
-//     div_box.append(imageDiv,rateDiv,nameDiv,priceDiv,adddiv)
-//     div.append(div_box)
-//     product_display_grid.append(div)
-//   })
-
-// function createProductCard(data,parent){
-//     data.map((elem)=>{
-//         let mainDiv = document.createElement("div");
-//         mainDiv.id="mainDiv";
-//         let imgDiv = document.createElement("img");
-//         imgDiv.src=elem.prodImgUrl[0];
-//         let saveDiv = document.createElement("div");
-//         saveDiv.textContent = "SAVE 10%";
-//         saveDiv.id="saveDiv";
-//         let star =  document.createElement("i");
-//         star.setAttribute("class","fa-solid fa-star")
-//         let max = 4.0;
-//         let min = 4.0;
-//         let value = Math.random() * (max - min + 1) + min;
-//         value = value.toFixed(1);
-//         let rating =  document.createElement("span");
-//         rating.textContent = ` ${value}/5 `;
-//         rating.id ="rating";
-//         let review =  document.createElement("span");
-//         review.id = "review";
-//         review.textContent = `(${elem.review})`
-//         let nameDiv = document.createElement("div");
-//         nameDiv.textContent = elem.DispName;
-//         nameDiv.id = "nameDiv";
-//         let subNameDiv = document.createElement("div");
-//         subNameDiv.textContent = elem.dNameSub;
-//         subNameDiv.id = "subNameDiv";
-//         let mainPrice = document.createElement("div");
-//         mainPrice.id="mainPrice";
-//         let discount = elem.price-(elem.price/10);
-//         let priceDiv = document.createElement("div");
-//         priceDiv.textContent = `RS: ${elem.price} `;
-//         priceDiv.style.textDecoration = "line-through"
-//         let discountSpan = document.createElement("div");
-//         discountSpan.textContent = ` RS: ${discount}`;
-//         mainPrice.append(priceDiv,discountSpan)
-//         let cart = document.createElement("button");
-//         cart.textContent = "ADD TO CART";
-//         cart.id = "Addcart";
-//         mainDiv.append(imgDiv,saveDiv,star,rating,review,nameDiv,subNameDiv,mainPrice,cart)
-//         parent.append(mainDiv);
-//     });
-// }
 
 
 let product_data=[{
     DispName: "Moringa & Argan Hair Fall Control Shampoo",
     // dNameSub: "Sugar Body Scrub",
-    name: "VITAMIN C AVALON LEMON SUGAR BODY SCRUB",
+    name: "Moringa & Argan Hair Fall Control Shampoo",
     price:695.00,
     size: 200,
     discription:
@@ -241,14 +152,15 @@ let product_data=[{
     review: 20,
     prodImgUrl: [
     "https://cdn.shopify.com/s/files/1/0361/8553/8692/products/1.png?v=1642746025",
-      "https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Artboard1-5_2_1800x1800.jpg?v=1641964139",
-      "https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Artboard1-4_2_1800x1800.jpg?v=1641964139",
-      "https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Artboard1-3_2_1800x1800.jpg?v=1641964139",
+      "https://cdn.shopify.com/s/files/1/0361/8553/8692/products/2_1800x1800.png?v=1643021491",
+      "https://cdn.shopify.com/s/files/1/0361/8553/8692/products/3_1800x1800.png?v=1643021491",
+      "https://cdn.shopify.com/s/files/1/0361/8553/8692/products/9_8fc725cc-f301-4382-98a4-f53798480935_1800x1800.png?v=1643026139",
+      "https://cdn.shopify.com/s/files/1/0361/8553/8692/products/7_03a0f01c-255c-44d6-9c45-ce717f53042d_1800x1800.png?v=1643026139"
     ],
   },{
     DispName: "Pea Peptide Strengthening Moringa & Argan Hair Mask",
     // dNameSub: "Sugar Body Scrub",
-    name: "VITAMIN C AVALON LEMON SUGAR BODY SCRUB",
+    name: "Pea Peptide Strengthening Moringa & Argan Hair Mask",
     price:645.00,
     size: 200,
     discription:
@@ -269,14 +181,16 @@ let product_data=[{
     review: 20,
     prodImgUrl: [
     "//cdn.shopify.com/s/files/1/0361/8553/8692/products/1_b737be29-1463-49be-993d-f501174f5ed6.png?v=1642747503",
-      "https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Artboard1-5_2_1800x1800.jpg?v=1641964139",
-      "https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Artboard1-4_2_1800x1800.jpg?v=1641964139",
-      "https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Artboard1-3_2_1800x1800.jpg?v=1641964139",
+    "https://cdn.shopify.com/s/files/1/0361/8553/8692/products/2_5c230f6f-062a-4f48-a9eb-826186ea7ae5_1800x1800.png?v=1643610339",
+    "https://cdn.shopify.com/s/files/1/0361/8553/8692/products/3_a43882ad-6955-4a11-b0ff-b68832a95a71_1800x1800.png?v=1643610339",
+    "https://cdn.shopify.com/s/files/1/0361/8553/8692/products/3_a43882ad-6955-4a11-b0ff-b68832a95a71_1800x1800.png?v=1643610339",
+    "https://cdn.shopify.com/s/files/1/0361/8553/8692/products/4_14eeea21-f659-4d32-8cca-7daf8ec783ae_1800x1800.jpg?v=1643610339"
+    ,
     ],
   },{
     DispName: "Pea Peptide + Cysteine Hair Volumising Serum",
     // dNameSub: "Sugar Body Scrub",
-    name: "VITAMIN C AVALON LEMON SUGAR BODY SCRUB",
+    name: "Pea Peptide + Cysteine Hair Volumising Serum",
     price:745.00,
     size: 200,
     discription:
@@ -297,14 +211,16 @@ let product_data=[{
     review: 20,
     prodImgUrl: [
     "https://cdn.shopify.com/s/files/1/0361/8553/8692/products/1_ad531b5f-96d9-45c9-a81e-53cb3371c56c.png?v=1642749296",
-      "https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Artboard1-5_2_1800x1800.jpg?v=1641964139",
-      "https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Artboard1-4_2_1800x1800.jpg?v=1641964139",
-      "https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Artboard1-3_2_1800x1800.jpg?v=1641964139",
+    "https://cdn.shopify.com/s/files/1/0361/8553/8692/products/3_00ef907f-6fcb-48b0-8222-e5a43ab02e1a_1800x1800.png?v=1643623502",
+    "https://cdn.shopify.com/s/files/1/0361/8553/8692/products/4_c0fda1aa-f0c5-4b21-ab07-44d659156e1a_1800x1800.jpg?v=1643623502",
+    "https://cdn.shopify.com/s/files/1/0361/8553/8692/products/5_0bba455c-fc97-45c2-bde7-d895231f5d53_1800x1800.png?v=1643623502",
+    "https://cdn.shopify.com/s/files/1/0361/8553/8692/products/8_4793ec55-604d-4a0d-a0a0-7f4bc24c5a4a_1800x1800.png?v=1643623502"
+    ,
     ],
   },{
     DispName: "AHA Exfoliation Apple Cider Hair & Scalp Scrub",
     // dNameSub: "Sugar Body Scrub",
-    name: "VITAMIN C AVALON LEMON SUGAR BODY SCRUB",
+    name: "AHA Exfoliation Apple Cider Hair & Scalp Scrub",
     price:745.00,
     size: 200,
     discription:
@@ -325,9 +241,11 @@ let product_data=[{
     review: 20,
     prodImgUrl: [
     "https://cdn.shopify.com/s/files/1/0361/8553/8692/products/1_7af0a876-4de1-4ca4-8fb9-431f10bed3d4.png?v=1643623502",
-      "https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Artboard1-5_2_1800x1800.jpg?v=1641964139",
-      "https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Artboard1-4_2_1800x1800.jpg?v=1641964139",
-      "https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Artboard1-3_2_1800x1800.jpg?v=1641964139",
+    "https://cdn.shopify.com/s/files/1/0361/8553/8692/products/2_b6651138-4771-4e9b-84f9-148439eebcca_1800x1800.png?v=1642749296",
+    "https://cdn.shopify.com/s/files/1/0361/8553/8692/products/3_a6bd7aa6-bb68-4387-bf6b-f1e4aaf1ceb5_1800x1800.png?v=1642749296",
+    "https://cdn.shopify.com/s/files/1/0361/8553/8692/products/4_5e2019c3-70d5-435f-a7d6-24c6274c841f_1800x1800.jpg?v=1643026209",
+    "https://cdn.shopify.com/s/files/1/0361/8553/8692/products/6_e0954878-0f58-4db7-a78b-a83560c52bcc_1800x1800.png?v=1643026209"
+    ,
     ],
   },{
     DispName: "Quinoa Protein & Olive Damage Repair Shampoo",
@@ -526,3 +444,180 @@ let product_data=[{
       "https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Artboard1-3_2_1800x1800.jpg?v=1641964139",
     ],
   },]
+
+
+
+
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 4,
+    spaceBetween: 30,
+    slidesPerGroup: 4,
+    loop: true,
+    loopFillGroupWithBlank: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+
+
+
+  let slider_data=[{
+      title:"Avocado Oil",
+      benifits:"to Reduce Dryness",
+      description:"Rich in fatty acids & antioxidants, avocado oil repairs dry and damaged hair by penetrating deep into the scalp & hair shaft",
+      icon:"https://cdn.shopify.com/s/files/1/0361/8553/8692/files/Group_57.png?v=1643014587"
+  },
+  {
+    title:"Macadamia Oil",
+    benifits:"to Regulate Oil",
+    description:"Is rich in fatty acids that tame dry and frizzy hair and keep it hydrated. It also regulates oil production in the scalp",
+    icon:"https://cdn.shopify.com/s/files/1/0361/8553/8692/files/Group_57.png?v=1643014587",
+},
+{
+    title:"2% BHA – Salicylic Acid",
+    benifits:"for Exfoliation",
+    description:"Topical application of salicylic acid strips away the outermost layer of the epidermis, penetrating in to dissolve dead skin cells & remove dandruff, flakes & scaly skin. It unclogs the hair follicles to prevent oil & product buildup, which also reduces itchiness & scalp irritation.",
+    icon:"https://cdn.shopify.com/s/files/1/0361/8553/8692/files/Group_55.png?v=1643015116",
+},
+{
+    title:"AHA – Glycolic & Lactic Acid",
+    benifits:"for Scalp Detox",
+    description:"AHAs like Glycolic & Lactic Acid helps exfoliate your scalp by removing dirt & dry skin build up, clearing dead skin cells, dandruff & sebum for a detox treatment while promoting cell turnover.",
+    icon:"https://cdn.shopify.com/s/files/1/0361/8553/8692/files/Group_54.png?v=1643015157",
+},
+{
+    title:"Apple Cider Vinegar",
+    benifits:"to Balance pH",
+    description:"ACV is a natural AHA, anti-fungal & antibacterial ingredient that soothes your scalp, decreases dandruff and yeast growth while keeping your scalp pH level balanced. It is also a natural conditioner that smoothens hair, controls frizz & adds shine.",
+    icon:"https://cdn.shopify.com/s/files/1/0361/8553/8692/files/Group_61.png?v=1643015276",
+},
+{
+    title:"Moringa seed oil",
+    benifits:"to Strengthen",
+    description:"Moringa Seed Oil is rich in zinc that boosts natural keratin production in hair to strengthen limp, lifeless hair. It also activates dormant hair follicles to enhance hair growth. Moringa-infused haircare is also rich in omega-3 fatty acid which over-coats the hair cortex to lock in moisture. Behenic Acid in Moringa Seed Oil makes the hair lustrous & soft.",
+    icon:"https://cdn.shopify.com/s/files/1/0361/8553/8692/files/Group_45.png?v=1643014332",
+},
+{
+    title:"Pea peptide Protein",
+    benifits:"to Resist Hair Loss",
+    description:"A rich source of amino acid, pea-peptide protein stimulates & strengthens hair follicle cells to resist hair loss. The reconstructive properties of pea peptide forms a film over hair slowing down moisture loss from the hair, keeping it hydrated, healthy & less prone to breakage. In addition, pea peptides also acts as a superfood for the scalp nourishing it for supersoft, silky smooth hair.",
+    icon:"https://cdn.shopify.com/s/files/1/0361/8553/8692/files/Group_44.png?v=1643014378",
+},
+{
+    title:"Hydrolyzed Keratin",
+    benifits:"to Replace Missing Keratin",
+    description:"Keratin is a protein naturally found in the hair, a deficiency of which can cause hair thinning & loss. Infusion of hydrolyzed keratin to the hair helps to strengthen the hair shaft & reduce hair loss from breakage. Hydrolyzed keratin is a large protein molecule broken down to penetrate the hair cuticle. Topical application of hydrolyzed keratin creates a protective barrier on the hair to strengthen brittle, thin & limp hair by penetrating the hair shaft to replace missing or damaged keratin. Reduces hair breakage by minimizing cuticle damage, and increases hair elasticity.",
+    icon:"https://cdn.shopify.com/s/files/1/0361/8553/8692/files/Group_46.png?v=1643014449",
+},
+{
+    title:"Argan Oil",
+    benifits:"to Fight Breakage",
+    description:"A known hydrator & a natural source of Vitamin E, it strengthens weak & damaged hair. It increases the hair elasticity to prevent rough breakage while restoring volume to dull, lifeless hair. It also contains fatty acids that naturally moisturize & lubricate the hair giving it a healthy lustre and shine.",
+    icon:"https://cdn.shopify.com/s/files/1/0361/8553/8692/files/Group_57.png?v=1643014587",
+},
+{
+    title:"Linoleic Acid",
+    benifits:"to Balance Hair Growth",
+    description:"Linoleic Acid keeps the scalp hydrated & healthy. It rebalances the hair growth cycle which in turn gives you strong and thick hair, hence reducing hair fall and loss.",
+    icon:"https://cdn.shopify.com/s/files/1/0361/8553/8692/files/Group_58_8fbb0ba6-02ca-42fb-8ce4-b56d30975438.png?v=1643014648",
+},
+{
+    title:"Ceramides",
+    benifits:"for Cuticle Repair",
+    description:"Ceramides that occur naturally in the hair get depleted by the overuse of chemical treatments and styling tools, thus leading to raised cuticles. Raised cuticles allow moisture to quickly escape, making hair dry and frizzy. Ceramides (1, 2, 3, 4 & 6) are the saviour for dry, damaged hair cuticles. Multiple Ceramides together create a protective layer around the hair strands that help repair cuticle damage caused from colouring, styling, chemical or heat treatments. Applying ceramides infused hair care, can help flatten the hair cuticles, thus promoting moisture retention and elasticity, controlling frizz and further damage.",
+    icon:"https://cdn.shopify.com/s/files/1/0361/8553/8692/files/Group_48.png?v=1643014740",
+},
+{
+    title:"Hyaluronic Acid",
+    benifits:"for Hydration",
+    description:"While Hyaluronic is a known skin hero, it is also extremely beneficial for dry and frizzy hair. Healthy hair strands need moisture to maintain their structure and resist the effects of environmental factors. Hyaluronic Acid is a natural humectant that locks water molecules inside the hair strands to improve its appearance and overall hair health, while resisting damage.",
+    icon:"https://cdn.shopify.com/s/files/1/0361/8553/8692/files/Group_50.png?v=1643014781",
+},
+{
+    title:"Quinoa Protein",
+    benifits:"to Boost Keratin",
+    description:"As a rich source of protein & amino acids, quinoa protein provides the hair with moisture & strength while repairing surface damage. It also boosts keratin production which strengthens the hair shaft to make damaged hair healthier & stronger. Quinoa Protein also contains Vitamin E that balances the production of natural oils in your hair to keep it soft & smooth.",
+    icon:"https://cdn.shopify.com/s/files/1/0361/8553/8692/files/Group_46.png?v=1643014449",
+},
+{
+    title:"Olive",
+    benifits:"to Smoothen",
+    description:"Olive oil is a natural emollient which adds softness and strength to hair. It penetrates deep into the hair shaft to smoothen the outer cuticle & preserve moisture from within.",
+    icon:"https://cdn.shopify.com/s/files/1/0361/8553/8692/files/Group_57.png?v=1643014587",
+},
+{
+    title:"Vegetal Keratin",
+    benifits:"to Improve Tensile Strength",
+    description:"The natural keratin present in the hair cuticle gets damaged by use of harsh chemicals, styling tools, etc. As a result, hair loses elasticity and becomes damaged. Lab studies prove Vegetal Keratin improves hair elasticity by 18%. More elastic hair is healthier and less prone to breakage. Rich in Omega 3 Fatty Acids, this vegan alternative to animal keratin helps repair dry and damaged hair by penetrating the hair shaft to improve the tensile strength of hair fibres & increase hair elasticity, thus making hair stronger, healthier and frizz-free.",
+    icon:"https://cdn.shopify.com/s/files/1/0361/8553/8692/files/Group_46.png?v=1643014449",
+
+}];
+
+
+
+function sweperslider(slider_data){
+console.log(slider_data)
+  slider_data.forEach(function(el){
+    
+let mainDiv=document.createElement("div")
+mainDiv.setAttribute("class","swiper-slide")
+let iconDiv=document.createElement("div")
+iconDiv.setAttribute("class","swiper-icon")
+let icon=document.createElement("img")
+icon.src=el.icon
+iconDiv.append(icon)
+let sonDiv=document.createElement("div")
+sonDiv.id="sonDiv"
+ let topDiv=document.createElement("div")
+ topDiv.setAttribute("class","topDiv")
+ let botDiv=document.createElement("div")
+ botDiv.setAttribute("class","botDiv")
+
+ let title=document.createElement("h4")
+ title.textContent=el.title
+ let benifit=document.createElement("h5")
+ benifit.textContent=el.benifits
+
+topDiv.append(title,benifit)
+
+
+ let decript=document.createElement("p")
+ decript.textContent=el.description
+
+ botDiv.append(decript)
+ sonDiv.append(topDiv,botDiv)
+ mainDiv.append(iconDiv,sonDiv)
+
+ document.querySelector(".swiper-wrapper").append(mainDiv)
+
+
+
+
+  })
+
+
+}
+sweperslider(slider_data);
+import { createProductPage,createProductCard, mainDisp } from "./Scripts/main.js";
+let parent = document.getElementById("product-grid")
+createProductCard(product_data, parent);
+
+
+import { navBar,navInt,navcar } from "./Componentes/navBar.js";
+  import { footer } from "./Componentes/footer.js";
+  document.querySelector("#navInterval").innerHTML = navInt();
+  let i = 0;
+  navcar(i);
+  document.querySelector("#navbar").innerHTML = navBar();
+  document.querySelector("#footer").innerHTML = footer();
+document.querySelector("#leftNav > img ").addEventListener("click",()=>{
+  location.href = "index.html";
+});
+document.querySelector("#cartBag ").addEventListener("click",()=>{
+  location.href = "cart.html";
+});
