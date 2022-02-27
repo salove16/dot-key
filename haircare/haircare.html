@@ -12,10 +12,10 @@
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="haircare.css">
-</head>
-<style>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
-</style>
+</head>
+
 
 <body>
   <div id="container">
@@ -75,7 +75,29 @@
 
 
       </div>
-      <div id="background2"></div>
+      <div id="background2">
+        <h5>THE SCIENCE BEHIND</h5>
+        <h2>Our Formulations</h2>
+        <h6>Our Formulations are 90% nature derived, with our focus being the use of scientifically-proven ingredients
+          that ensure promised results.</h6>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <!-- <div class="swiper-slide" >
+              <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, distinctio in error, quas asperiores suscipit inventore rem nesciunt sint similique laboriosam vitae, beatae doloremque pariatur eum itaque placeat cumque excepturi!</h1></div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+            <div class="swiper-slide">Slide 4</div>
+            <div class="swiper-slide">Slide 5</div>
+            <div class="swiper-slide">Slide 6</div>
+            <div class="swiper-slide">Slide 7</div>
+            <div class="swiper-slide">Slide 8</div>
+            <div class="swiper-slide">Slide 9</div> -->
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <!-- <div class="swiper-pagination"></div> -->
+        </div>
+      </div>
 
       <div class="page-text-title">
         <div class="hair-page-title">Shop Hair Care</div>
@@ -92,28 +114,36 @@
       </div>
       <div class="productList">
         <div id="product-grid"></div>
-        <div><img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/7_31dec0fe-d522-47b7-96c4-da0c99724f9b.png?v=1642768426" alt=""></div>
+        <div><img
+            src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/7_31dec0fe-d522-47b7-96c4-da0c99724f9b.png?v=1642768426"
+            alt=""></div>
+      </div>
+      <div id="filter">
+        <!-- for filter -->
+      </div>
+      <div id="bottom">
+        <!-- for bottom lane of page -->
+      </div>
     </div>
-    <div id="filter">
-      <!-- for filter -->
-    </div>
-    <div id="bottom">
-      <!-- for bottom lane of page -->
-    </div>
-  </div>
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
 </body>
 
 </html>
 <script src="./haircare.js"></script>
-<script type="module" >
-  import {createProductCard} from "./main.js"
 
-  
-  
-
-  let parent=document.getElementById("product-grid")
+<script type="module">
+  import { createProductCard } from "./main1.js"
 
 
 
-createProductCard(product_data,parent)
+
+  let parent = document.getElementById("product-grid")
+
+
+
+  createProductCard(product_data, parent)
 </script>
