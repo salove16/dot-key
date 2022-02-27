@@ -602,6 +602,7 @@ topDiv.append(title,benifit)
 
 
 }
+<<<<<<< HEAD:hairCare.js
 sweperslider(slider_data);
 import { createProductPage,createProductCard, mainDisp } from "./Scripts/main.js";
 let parent = document.getElementById("product-grid")
@@ -621,3 +622,6 @@ document.querySelector("#leftNav > img ").addEventListener("click",()=>{
 document.querySelector("#cartBag ").addEventListener("click",()=>{
   location.href = "cart.html";
 });
+=======
+sweperslider(slider_data)
+>>>>>>> f81c543e86cb98687aacce69b1c476d10236ebe1:haircare/haircare.js

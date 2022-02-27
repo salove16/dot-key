@@ -245,7 +245,17 @@ z-index: 1;
 
 
 
+<<<<<<< HEAD:Styles/hairCare.css
 
+=======
+html,
+#background2 {
+  position: relative;
+  /* height: 200px; */
+  /* border: 2px solid black; */
+  
+}
+>>>>>>> f81c543e86cb98687aacce69b1c476d10236ebe1:haircare/haircare.css
 #background2 {
   background-image: url("https://cdn.shopify.com/s/files/1/0361/8553/8692/files/6_48edab9c-9955-4397-b35b-ecf5931c6812.png?v=1643015795");
   /* padding: 32%; */
@@ -328,5 +338,9 @@ font-family: "Gilroy SemiBold";
     /* margin-top: -1.7%; */
     
     z-index: 1;
+<<<<<<< HEAD:Styles/hairCare.css
     /* position: absolute; */
+=======
+    position: absolute;
+>>>>>>> f81c543e86cb98687aacce69b1c476d10236ebe1:haircare/haircare.css
 }
